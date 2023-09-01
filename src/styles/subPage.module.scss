@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.subPage {
+  display: flex;
+  width: 100%;
+  height: auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+.newsContainer {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-top: 2.3rem;
+}
+.link{
+  text-decoration: none;
+  color: black;
+}
+.cardNews {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.title {
+  font-size: 1em;
+  width: 250px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.headlineContainer {
+  display: flex;
+  flex-direction: column;
+}

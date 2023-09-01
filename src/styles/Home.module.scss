@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.mainPage{
+  width: 100%;
+  height: auto;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.articleContainer{
+  display: flex;
+  flex-direction: row;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  gap: 40px;
+}
+.headline{
+  background-color: #d9d9d9;
+  border-radius: 8px;
+  width: 500px;
+  height: fit-content;
+}
+.subHeadline{
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+  height: auto;
+}
+.subHeadline1{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: fit-content;
+}
+.subHeadline2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: fit-content;
+}
+.bottomContent{
+  display: flex;
+  flex-direction: row;
+  padding-left: 1rem;
+  gap: 35px;
+}
+.bottomContainerLeft{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.bottomContainerRight {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.sportNews{
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.sportNewsContainer{
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}
+.businessNews{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.businessNewsContainer {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}
